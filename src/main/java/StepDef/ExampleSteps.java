@@ -28,7 +28,7 @@ public class ExampleSteps {
     @Test
     public void iHaveACucumberFeatureFile()
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\SpurSol-Fizza\\Documents\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Documents\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://18.188.38.38/login");
 
